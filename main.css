@@ -91,11 +91,11 @@ nav li {
 /*FELINO*/
 .itens-felinos {
     margin-top: 40px;
+    margin-left: 100px;
 }
 
 #itens {
     margin-bottom: 100px;
-    margin-left: 20px;
     margin-right: 20px;
 }
 #itens, h2 {
@@ -121,12 +121,19 @@ nav li {
 
 .gato-fantasia img {
     height: 300px;
+    padding-left: 30px;
 }
 
 .prato-img img {
     height: 250px;
 }
 
+#itens div p img {
+    height: 40px;
+}
+.pote-img {
+    padding-left: 10px;
+}
 
 
 /*HUMANOS*/
@@ -290,6 +297,7 @@ nav li {
 #img-egip img {
     width: 50%;
     margin-left: 250px;
+    width: 300px;
 }
 
 #img-egip {
@@ -311,6 +319,9 @@ nav li {
 
 #img-antiguidade img {
     width: 60%;
+    width: 300px;
+    width: 350px;
+    padding-top: 50px;
 }
 
 #antiguidade {
@@ -344,6 +355,7 @@ nav li {
     width: 40%;
     margin-left: 150px;
     margin-top: 15px;
+    width: 160px;
 
 }
 
@@ -370,6 +382,7 @@ nav li {
     width: 65%;
     margin-left: 25px;
     margin-top: 20px;
+    width: 200px;
 }
 
 #idade-media-img {
@@ -406,6 +419,7 @@ nav li {
     width: 65%;
     margin-left: 140px;
     margin-top: 25px;
+    width: 350px;
 }
 
 #domesticacao-img {
