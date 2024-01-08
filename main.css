@@ -58,7 +58,7 @@ nav li {
 #imagem-gato {
     width: 30%;
     margin-left: 20px;
-    margin-bottom: 55px;
+    margin-bottom: 170px;
     padding-top: 30px;
 }
 
@@ -90,13 +90,14 @@ nav li {
 
 /*FELINO*/
 .itens-felinos {
-    margin-top: 40px;
-    margin-left: 100px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 #itens {
-    margin-bottom: 100px;
-    margin-right: 20px;
+    margin-bottom: 80px;
+    margin-top: 65px;
 }
 #itens, h2 {
     display: flex;
@@ -115,6 +116,17 @@ nav li {
     text-align: center;
 }
 
+#itens div {
+    width: 33%;
+}
+.pote {
+    width: 33%;
+} 
+
+.pote img {
+    width: 250px;
+    text-align: center;
+}
 #itens a img {
     height: 40px;
 }
@@ -122,17 +134,31 @@ nav li {
 .gato-fantasia img {
     height: 300px;
     padding-left: 30px;
+    text-align: center;
+
+}
+.gato-fantasia {
+    width: 33%;
+    text-align: center;
+}
+.gato-fantasia p {
+    text-align: center;
+}
+
+.prato {
+    text-align: center;
 }
 
 .prato-img img {
-    height: 250px;
+    width: 250px;
 }
 
 #itens div p img {
-    height: 40px;
+    height: 35px;
 }
-.pote-img {
-    padding-left: 10px;
+
+.pote {
+    text-align: center;
 }
 
 
@@ -141,8 +167,15 @@ nav li {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+}
+
+.produtos {
     margin-bottom: 100px;
+    margin-top: 93px;
+}
+.humanos-produtos {
     margin-top: 65px;
+    margin-bottom: 100px;
 }
 
 .humanos-produtos p {
@@ -177,6 +210,7 @@ nav li {
 
 #produto1 img {
     height: 250px;
+    margin-left: 20px;
 }
 
 #produto2 img {
