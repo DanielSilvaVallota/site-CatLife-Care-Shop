@@ -59,12 +59,12 @@
                 Contato
             </h3>
         </div>
-        <form>
-            <input type="text" placeholder="Digite seu nome" required>
-            <input type="tel" placeholder="Digite seu telefone (opcional)">
-            <input type="email" placeholder="Digite seu email" required>
-            <textarea name="#" id="" cols="30" rows="10"
-                placeholder="Digite sua mensagem" required></textarea>
+        <form id="form-msn">
+            <input type="text" id="nome-completo" placeholder="Digite seu nome completo, não é opcional!" required>
+            <input type="tel" id="telefone" placeholder="Digite seu telefone (desejável)">
+            <input type="email" id="email" placeholder="Digite seu email (desejável).">
+            <textarea name="#" id="texto" cols="30" rows="10"
+                placeholder="Digite sua mensagem (desejável)."></textarea>
             <button type="submit">Enviar</button>
         </form>
     </div>
@@ -79,5 +79,6 @@
             </p>
         </div>
     </footer>
+    <script src="./main.js"></script>
 </body>
 </html>
